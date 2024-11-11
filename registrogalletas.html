@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promocion Galletas Innovadoras - Dulce Anarquia</title>
+    <style>
+        body {
+            background-color: #f9f9f9; /* Fondo claro */
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61; /* Color de encabezado */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .promo-container {
+            text-align: center;
+            margin: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .promo-container h2 {
+            color: #ff6f61;
+        }
+        .promo-image {
+            width: 300px;
+            height: auto;
+            margin: 20px 0;
+        }
+        .registration-form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .registration-form input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .registration-form button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dulce Anarquia</h1>
+        <p> Descubre nuestras galletas innovadoras </p>
+    </header>
+
+    <div class="promo-container">
+        <h2>LANZAMIENTO EXCLUSIVO</h2>
+        <img src="imagenes/oferta.jpg" alt="Galletas Innovadoras" width="1600" height="1067" class="promo-image">
+        <p>Presentamos nuestras nuevas galletas con tecnologia de sabor mejorado. Una experiencia unica que no querras perderte  :)</p>
+        <p>Para adquirir nuestras deliciosas galletas y obtener mas ofertas registrate ahora en el siguiente formulario para ser uno de los primeros 20 partipantes en probarlas y recibir ofertas exclusivas.</p>
+
+        <div class="registration-form">
+            <h3>Registro</h3>
+            <form action="gracias.html" method="post">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electronico" required>
+                <input type="text" name="telefono" placeholder="Tu telefono" required>
+				<input type="number" name="number" placeholder="Ingresa la cantidad de cajas de galletas a comprar" required>
+                <button type="submit">Quiero ser parte!</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 DulceAnarquía. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
